@@ -23,7 +23,7 @@ namespace BouncyDouncy
 
             GameObjects mainBall = new GameObjects(Ball, 10, new moveDown());
             GameObjects spaceShip1 = new GameObjects(enemySpaceship1, 11, new moveRight());
-            GameObjects spaceShip2 = new GameObjects(enemySpaceship2, 9, new moveLeft());
+            GameObjects spaceShip2 = new GameObjects(enemySpaceship2, 9);
             
             game.addObject(mainBall);           // Adding the created instance of GameObject in the array list of Game class
             game.addObject(spaceShip1);           // Adding the created instance of GameObject in the array list of Game class

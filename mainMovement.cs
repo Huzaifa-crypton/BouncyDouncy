@@ -7,11 +7,8 @@ using System.Windows.Forms;
 
 namespace BouncyDouncy
 {
-    class mainMovement
+    interface mainMovement
     {
-        public virtual void moveObject(GameObjects movingObject)
-        {
-            movingObject.getGameObject().Left = movingObject.getGameObject().Left - movingObject.getMovementSpeed();
-        }
+        void moveObject(GameObjects movingObject);
     }
 }

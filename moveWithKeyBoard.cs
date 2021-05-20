@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace BouncyDouncy
 {
-    class moveWithKeyBoard:mainMovement
+    class moveWithKeyBoard
     {
          
     }

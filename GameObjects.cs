@@ -11,7 +11,7 @@ namespace BouncyDouncy
         // <------Attributes Start-------->
         private PictureBox myObject;
         private int speed;
-        private mainMovement movement;
+        private mainMovement movement = (mainMovement) new moveLeft(); 
        //<--------End------------>
 
         //<------------Constructor Start------>
@@ -19,6 +19,13 @@ namespace BouncyDouncy
         {
             this.speed = speed;
             this.movement = movement;
+            this.myObject = pictureBox;
+
+        }
+
+        public GameObjects(PictureBox pictureBox, int speed)
+        {
+            this.speed = speed;
             this.myObject = pictureBox;
 
         }

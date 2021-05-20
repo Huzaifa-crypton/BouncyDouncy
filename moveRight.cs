@@ -9,7 +9,7 @@ namespace BouncyDouncy
 {
     class moveRight : mainMovement
     {
-        public override void moveObject(GameObjects movingObject)
+        public void moveObject(GameObjects movingObject)
         {
            
             movingObject.getGameObject().Left = movingObject.getGameObject().Left + movingObject.getMovementSpeed();
