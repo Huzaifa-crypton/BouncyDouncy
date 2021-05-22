@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace BouncyDouncy
 {
-    interface mainMovement
+    enum EnumObjectType
     {
-        void moveObject(IObjectType movingObject );
+        Enemy,
+        Friends,
+        Platform,
     }
 }

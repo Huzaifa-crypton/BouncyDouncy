@@ -25,16 +25,16 @@ namespace BouncyDouncy
         }
       
 
-        public void addObject(GameObjects gameObject)
+        public void addObject(IObjectType gameObject)
         {
             allObjects.Add(gameObject);
         }
 
         public void moveObjects()
         {
-            foreach (GameObjects go in allObjects)
+            foreach (IObjectType go in allObjects)
             {
-                go.getMovemetType().moveObject(go);
+                go.getMovemetType().moveObject(go );
 
             }
 

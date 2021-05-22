@@ -7,8 +7,11 @@ using System.Windows.Forms;
 
 namespace BouncyDouncy
 {
-    interface mainMovement
+    interface IObjectType
     {
-        void moveObject(IObjectType movingObject );
+        mainMovement getMovemetType();
+        int getMovementSpeed();
+        void setMovementSpeed(int speed);
+        PictureBox getGameObject();
     }
 }

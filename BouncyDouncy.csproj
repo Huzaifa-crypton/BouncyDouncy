@@ -47,19 +47,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="directionEnum.cs" />
+    <Compile Include="EnemyObject.cs" />
+    <Compile Include="EnumObjectType.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FriendObject.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="GameObjects.cs" />
+    <Compile Include="IObjectType.cs" />
     <Compile Include="mainMovement.cs" />
     <Compile Include="moveDown.cs" />
     <Compile Include="moveLeft.cs" />
     <Compile Include="moveRight.cs" />
+    <Compile Include="moveUpDown.cs" />
     <Compile Include="moveWithKeyBoard.cs" />
+    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="PlatformObjects.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
