@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BouncyDouncy
+namespace SectionA2020CS02
 {
-    interface mainMovement
+    public interface mainMovement
     {
         void moveObject(GameObject movingObject);
     }

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BouncyDouncy
+namespace SectionA2020CS02
 {
-    class GameObject 
+    public class GameObject 
     {
         // <------Attributes Start-------->
         private PictureBox myObject;
@@ -18,7 +18,7 @@ namespace BouncyDouncy
         //<--------End------------>
 
         //<------------Constructor Start------>
-        public GameObject(PictureBox pictureBox, int speed, mainMovement movement)
+        internal GameObject(PictureBox pictureBox, int speed, mainMovement movement)
         {
             this.speed = speed;
             this.movement = movement;
@@ -27,7 +27,7 @@ namespace BouncyDouncy
 
         }
         // -----------Constructor overoloading for default left movement
-        public GameObject(PictureBox pictureBox, int speed)
+        internal GameObject(PictureBox pictureBox, int speed)
         {
             this.speed = speed;
             this.myObject = pictureBox;

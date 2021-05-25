@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BouncyDouncy
+namespace SectionA2020CS02
 {
-    class moveRight : mainMovement
+    public class moveRight : mainMovement
     {
         public void moveObject(GameObject movingObject)
         {

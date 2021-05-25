@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BouncyDouncy
-{
-    class moveWithKeyBoard : mainMovement
+namespace SectionA2020CS02 
+{ 
+    public class moveWithKeyBoard : mainMovement
     {
         public static EnumDirection direction;
 

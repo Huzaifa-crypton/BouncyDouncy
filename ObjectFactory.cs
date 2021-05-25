@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BouncyDouncy
+namespace SectionA2020CS02
 {
-    class ObjectFactory
+    public class ObjectFactory
     {
         static ObjectFactory object_factory;
         public int[] objectCount = new int[10];
@@ -18,6 +18,7 @@ namespace BouncyDouncy
             {
                 object_factory = new ObjectFactory();
             }
+
             return object_factory;
         }
 

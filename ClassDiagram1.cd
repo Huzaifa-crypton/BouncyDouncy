@@ -1,34 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="BouncyDouncy.MainGameInterface">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>BggAAAIAACAAAAwBBgCAAAACACIAAAAQAIAAAAAAAIA=</HashCode>
-      <FileName>Form1.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BouncyDouncy.Game">
+  <Class Name="SectionA2020CS02.Game">
     <Position X="2" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAgAQAQIAAAAAAAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BouncyDouncy.GameObject">
+  <Class Name="SectionA2020CS02.GameObject">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAgACAEgAAAAAAIAAAAAAAACQAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BouncyDouncy.ObjectFactory">
+  <Class Name="SectionA2020CS02.ObjectFactory">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAAAAAAAgAAAAAEAQAAAAAAAAAAAA=</HashCode>
       <FileName>ObjectFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BouncyDouncy.moveDown" BaseTypeListCollapsed="true">
+  <Class Name="SectionA2020CS02.moveDown" BaseTypeListCollapsed="true">
     <Position X="10.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
@@ -36,7 +29,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="BouncyDouncy.moveLeft" BaseTypeListCollapsed="true">
+  <Class Name="SectionA2020CS02.moveLeft" BaseTypeListCollapsed="true">
     <Position X="7" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
@@ -44,7 +37,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.898" />
   </Class>
-  <Class Name="BouncyDouncy.moveRight" BaseTypeListCollapsed="true">
+  <Class Name="SectionA2020CS02.moveRight" BaseTypeListCollapsed="true">
     <Position X="8.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
@@ -52,7 +45,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="BouncyDouncy.moveUpDown" BaseTypeListCollapsed="true">
+  <Class Name="SectionA2020CS02.moveUpDown" BaseTypeListCollapsed="true">
     <Position X="5.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
@@ -60,19 +53,11 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="BouncyDouncy.moveWithKeyBoard" BaseTypeListCollapsed="true">
-    <Position X="12.25" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>moveWithKeyBoard.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Interface Name="BouncyDouncy.mainMovement">
+  <Interface Name="SectionA2020CS02.mainMovement">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>mainMovement.cs</FileName>
+      <FileName>IMovement.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

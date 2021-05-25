@@ -5,9 +5,9 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AECEB86D-7BFD-47B9-91E6-3E246D258206}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>BouncyDouncy</RootNamespace>
-    <AssemblyName>BouncyDouncy</AssemblyName>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SectionA2020CS02</RootNamespace>
+    <AssemblyName>SectionA2020CS02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,14 +51,8 @@
   <ItemGroup>
     <Compile Include="EnumDirection.cs" />
     <Compile Include="EnumObjectType.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Game.cs" />
-    <Compile Include="mainMovement.cs" />
+    <Compile Include="IMovement.cs" />
     <Compile Include="moveDown.cs" />
     <Compile Include="moveLeft.cs" />
     <Compile Include="moveRight.cs" />
@@ -63,11 +60,7 @@
     <Compile Include="moveWithKeyBoard.cs" />
     <Compile Include="ObjectFactory.cs" />
     <Compile Include="GameObject.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

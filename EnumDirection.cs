@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BouncyDouncy
+namespace SectionA2020CS02
 {
-    enum EnumDirection
+    public enum EnumDirection
     {
         Right,
         Left,

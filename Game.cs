@@ -7,9 +7,9 @@ using System.Windows.Forms;
 using System.Collections;
 
 
-namespace BouncyDouncy
+namespace SectionA2020CS02
 {
-    class Game
+    public class Game
     {
         
         public static Game game;
