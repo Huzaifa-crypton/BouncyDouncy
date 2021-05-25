@@ -7,9 +7,9 @@ using System.Windows.Forms;
 
 namespace BouncyDouncy
 {
-    class moveLeft:mainMovement
+    class moveLeft: mainMovement
     {
-        public void moveObject(IObjectType movingObject)
+        public void moveObject(GameObject movingObject)
         {
             movingObject.getGameObject().Left = movingObject.getGameObject().Left - movingObject.getMovementSpeed();
         }

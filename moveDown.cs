@@ -13,7 +13,7 @@ namespace BouncyDouncy
         class moveDown : mainMovement
         {
 
-        public void moveObject(IObjectType movingObject )
+        public void moveObject(GameObject movingObject )
         {
             movingObject.getGameObject().Top = movingObject.getGameObject().Top + movingObject.getMovementSpeed();
         }

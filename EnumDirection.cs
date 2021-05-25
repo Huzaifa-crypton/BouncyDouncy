@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace BouncyDouncy
 {
-    enum directionEnum
+    enum EnumDirection
     {
         Right,
         Left,
         Up,
         Down,
+        Stop,
     }
 }

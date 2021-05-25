@@ -181,6 +181,7 @@ namespace BouncyDouncy
             this.totalEnemies.Size = new System.Drawing.Size(93, 19);
             this.totalEnemies.TabIndex = 87;
             this.totalEnemies.Text = "Enemies : 0";
+            this.totalEnemies.Click += new System.EventHandler(this.totalEnemies_Click);
             // 
             // MainGameInterface
             // 
@@ -203,6 +204,8 @@ namespace BouncyDouncy
             this.Tag = "mainGameInterface";
             this.Text = "Bouncy Douncy";
             this.Load += new System.EventHandler(this.MainGameInterface_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainGameInterface_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MainGameInterface_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.Ball)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemySpaceship1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemySpaceship2)).EndInit();

@@ -9,6 +9,6 @@ namespace BouncyDouncy
 {
     interface mainMovement
     {
-        void moveObject(IObjectType movingObject );
+        void moveObject(GameObject movingObject);
     }
 }

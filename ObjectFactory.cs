@@ -9,23 +9,23 @@ namespace BouncyDouncy
 {
     class ObjectFactory
     {
-        public static IObjectType createObject(EnumObjectType objectType , PictureBox pictureBox, int speed, mainMovement movement)
+        static ObjectFactory object_factory;
+        public int[] objectCount = new int[10];
+        private ObjectFactory() { }
+        public static ObjectFactory getInstance()
         {
-            IObjectType myObject = null;
+            if (object_factory == null)
+            {
+                object_factory = new ObjectFactory();
+            }
+            return object_factory;
+        }
 
-            if (objectType == EnumObjectType.Enemy)
-            {
-                myObject = new EnemyObject(pictureBox, speed, movement);
-            }
-            else if (objectType == EnumObjectType.Friends)
-            {
-                myObject = new FriendObject(pictureBox, speed, movement);
-            }
-            else if (objectType == EnumObjectType.Platform)
-            {
-                myObject = new PlatformObjects(pictureBox, speed, movement);
-            }
-            return myObject;
+        public GameObject createObject(EnumObjectType objectType , PictureBox pictureBox, int speed, mainMovement movement)
+        {
+            GameObject gameObject = new GameObject(pictureBox ,speed, movement);
+            objectCount[(int)objectType]++;                             // Increasing the number of objects created for a type
+            return gameObject;
         }
     }
 }

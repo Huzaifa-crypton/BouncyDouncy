@@ -25,46 +25,18 @@ namespace BouncyDouncy
         }
       
 
-        public void addObject(IObjectType gameObject)
+        public void addObject(GameObject gameObject)
         {
             allObjects.Add(gameObject);
         }
 
         public void moveObjects()
         {
-            foreach (IObjectType go in allObjects)
+            foreach (GameObject go in allObjects)
             {
-                go.getMovemetType().moveObject(go );
+                go.getMovemetType().moveObject(go);
 
             }
-
-            //for (int i = 0; i < allObjects.Count; i++)
-            //{
-            //    GameObjects gameObject = (GameObjects)allObjects[i];   // Type casting single GameObject instance
-            //    PictureBox myGameObject;            //  Declaring a picture box variable to get the PB attribute             
-            //    ////if (gameObject.getDirection() == directionEnum.Up)
-            //    ////{
-            //    ////    myGameObject = gameObject.getGameObject();
-            //    ////    myGameObject.Top = myGameObject.Top - gameObject.getMovementSpeed();
-            //    ////}
-            //    ////else if (gameObject.getDirection() == directionEnum.Down) 
-            //    ////{
-            //    ////    myGameObject = gameObject.getGameObject();
-            //    ////    myGameObject.Top = myGameObject.Top + gameObject.getMovementSpeed();
-            //    ////}
-            //    ////else if (gameObject.getDirection() == directionEnum.Right) 
-            //    ////{
-            //    ////    myGameObject = gameObject.getGameObject();
-            //    ////    myGameObject.Left = myGameObject.Left + gameObject.getMovementSpeed();
-            //    ////}
-            //    ////else if (gameObject.getDirection() == directionEnum.Left) 
-            //    ////{
-            //    ////    myGameObject = gameObject.getGameObject();
-            //    ////    myGameObject.Left = myGameObject.Left - gameObject.getMovementSpeed();
-            //    ////}
-            //}
-
-            
         }
     }
 }
