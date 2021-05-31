@@ -22,7 +22,7 @@ namespace SectionA2020CS02
             return object_factory;
         }
 
-        public GameObject createObject(EnumObjectType objectType , PictureBox pictureBox, int speed, mainMovement movement)
+        public GameObject createObject(EnumObjectType objectType , PictureBox pictureBox, int speed, IMovement movement)
         {
             GameObject gameObject = new GameObject(pictureBox ,speed, movement);
             objectCount[(int)objectType]++;                             // Increasing the number of objects created for a type

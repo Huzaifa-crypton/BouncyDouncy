@@ -7,8 +7,9 @@ using System.Windows.Forms;
 
 namespace SectionA2020CS02
 {
-    public interface mainMovement
+    public interface IMovement
     {
         void moveObject(GameObject movingObject);
+
     }
 }

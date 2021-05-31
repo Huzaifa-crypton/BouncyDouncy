@@ -12,13 +12,13 @@ namespace SectionA2020CS02
         // <------Attributes Start-------->
         private PictureBox myObject;
         private int speed;
-        private mainMovement movement = (mainMovement)new moveLeft();
+        private IMovement movement = (IMovement)new moveLeft();
         
 
         //<--------End------------>
 
         //<------------Constructor Start------>
-        internal GameObject(PictureBox pictureBox, int speed, mainMovement movement)
+        internal GameObject(PictureBox pictureBox, int speed, IMovement movement)
         {
             this.speed = speed;
             this.movement = movement;
@@ -47,7 +47,7 @@ namespace SectionA2020CS02
         }
  
 
-        public mainMovement getMovemetType()
+        public IMovement getMovemetType()
         {
             return this.movement;
         }

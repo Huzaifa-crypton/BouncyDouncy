@@ -7,9 +7,13 @@ using System.Windows.Forms;
 
 namespace SectionA2020CS02 
 { 
-    public class moveWithKeyBoard : mainMovement
+    public class MoveWithKeyBoard : IMovement
     {
         public static EnumDirection direction;
+        public MoveWithKeyBoard()
+        {
+            direction = EnumDirection.Stop;
+        }
 
 
         public void moveObject(GameObject movingObject)

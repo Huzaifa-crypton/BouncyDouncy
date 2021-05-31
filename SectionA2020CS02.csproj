@@ -50,14 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EnumDirection.cs" />
+    <Compile Include="EnumMovementType.cs" />
     <Compile Include="EnumObjectType.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="IMovement.cs" />
-    <Compile Include="moveDown.cs" />
-    <Compile Include="moveLeft.cs" />
-    <Compile Include="moveRight.cs" />
-    <Compile Include="moveUpDown.cs" />
-    <Compile Include="moveWithKeyBoard.cs" />
+    <Compile Include="MoveDown.cs" />
+    <Compile Include="MoveLeft.cs" />
+    <Compile Include="MovementObjectPool.cs" />
+    <Compile Include="MoveRight.cs" />
+    <Compile Include="MoveUpDown.cs" />
+    <Compile Include="MoveWithKeyBoard.cs" />
+    <Compile Include="ObjectPool.cs" />
     <Compile Include="ObjectFactory.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

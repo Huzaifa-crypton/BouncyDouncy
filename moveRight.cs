@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace SectionA2020CS02
 {
-    public class moveRight : mainMovement
+    public class MoveRight : IMovement
     {
         public void moveObject(GameObject movingObject)
         {

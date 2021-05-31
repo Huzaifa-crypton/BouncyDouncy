@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SectionA2020CS02
 {
-    public class moveUpDown : mainMovement
+    public class MoveUpDown : IMovement
     {
         public void moveObject(GameObject movingObject)
         {

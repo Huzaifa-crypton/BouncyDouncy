@@ -1,9 +1,8 @@
-D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.Properties.Resources.resources
-D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.csproj.GenerateResource.cache
-D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.csproj.CoreCompileInputs.cache
 D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\bin\Debug\SectionA2020CS02.dll.config
 D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\bin\Debug\SectionA2020CS02.dll
 D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\bin\Debug\SectionA2020CS02.pdb
+D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.Properties.Resources.resources
+D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.csproj.GenerateResource.cache
+D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.csproj.CoreCompileInputs.cache
 D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.dll
 D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.pdb
-D:\HUZAIFA\Semester2\OOP\Week13\BouncyDouncy\BouncyDouncy\obj\Debug\SectionA2020CS02.csprojAssemblyReference.cache
